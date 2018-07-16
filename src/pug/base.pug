@@ -273,6 +273,8 @@ html(class=html.classList)&attributes(html.attrs)
 		block body-start
 		block content
 		block scripts
-			//- script(src=`${baseDir}js/vendor.js?v=${Date.now()}`)
-			//- script(src=`${baseDir}js/main.js?v=${Date.now()}`)
+			script(src="js/jquery-3.3.1.min.js")
+			script(src="js/slick.min.js")
+			script(src="js/bootstrap.bundle.min.js")
+			script(src="js/script.js")
 		block body-end

@@ -7,13 +7,15 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
-		<div class="mobile-panel">
-			<ul>
-				<li><a href="#">Производители</a></li>
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Новости</a></li>
-				<li><a href="#">Контакты</a></li>
-			</ul>
+		<div class="mobile-panel" id="mobile-panel">
+			<div class="container">
+				<ul class="mobile-panel__menu">
+					<li><a href="#">Производители</a></li>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
 		</div>
 		<div class="top-panel">
 			<div class="container">
@@ -33,7 +35,7 @@
 		</div>
 		<header class="header">
 			<div class="container">
-				<div class="row no-gutters justify-content-between">
+				<div class="row no-gutters justify-content-between align-items-center-md">
 					<div class="logo"><a href="#"><img src="images/market.png" alt=""></a></div>
 					<div class="h-center hidden-md">
 						<div class="h-center__top row no-gutters justify-content-between">
@@ -66,7 +68,7 @@
 		<div class="content">
 			<div class="container">
 				<div class="row no-gutters justify-content-between">
-					<div class="sidebar hidden-md">
+					<div class="sidebar">
 						<div class="sidebar__nav">
 							<div class="sidebar__btn">Каталог запчастей</div>
 							<div class="sidebar__nav__content">
@@ -83,7 +85,7 @@
 								<div class="sidebar__link"> <a href="#">Показать все бренды</a></div>
 							</div>
 						</div>
-						<div class="sidebar__news">
+						<div class="sidebar__news hidden-md">
 							<h2 class="item-title">Новости</h2>
 							<div class="sidebar__news__item">
 								<div class="sidebar__news__date">3 Апреля 2018</div>
@@ -97,14 +99,15 @@
 								<div class="sidebar__news__date">3 Апреля 2018</div>
 								<div class="sidebar__news__title"><a href="#">WorldBuild Moscow/MosBuild 2018</a></div>
 							</div>
-						</div><a class="link-item" href="#">Показать все новости</a>
-						<div class="widget" style="position: relative; left: -30px"><img src="images/socity-img-1.PNG" alt=""></div>
-						<div class="widget" style="position: relative; left: -20px"><img src="images/socity-img-2.PNG" alt=""></div>
-						<div class="widget" style="position: relative; left: -10px"><img src="images/socity-img-3.PNG" alt=""></div>
+						</div><a class="link-item hidden-md" href="#">Показать все новости</a>
+						<div class="widget hidden-md" style="position: relative; left: -30px"><img src="images/socity-img-1.PNG" alt=""></div>
+						<div class="widget hidden-md" style="position: relative; left: -20px"><img src="images/socity-img-2.PNG" alt=""></div>
+						<div class="widget hidden-md" style="position: relative; left: -10px"><img src="images/socity-img-3.PNG" alt=""></div>
 					</div>
 					<div class="center-content">
 						<div class="row no-gutters justify-content-between">
 							<div class="slider">
+								<div><img src="images/banner.jpg" alt=""></div>
 								<div><img src="images/banner.jpg" alt=""></div>
 							</div>
 							<div class="links hidden-md">
@@ -418,5 +421,9 @@
 				</div>
 			</div>
 		</footer>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>

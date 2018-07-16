@@ -19,7 +19,7 @@ block content
 	.content
 		.container
 			.row.no-gutters.justify-content-between
-				.sidebar.hidden-md
+				.sidebar
 					.sidebar__nav
 						.sidebar__btn Каталог запчастей
 						.sidebar__nav__content
@@ -38,7 +38,7 @@ block content
 									a(href="#") ASKO
 							.sidebar__link 
 								a(href="#") Показать все бренды
-					.sidebar__news
+					.sidebar__news.hidden-md
 						h2.item-title Новости
 						.sidebar__news__item
 							.sidebar__news__date 3 Апреля 2018
@@ -52,16 +52,18 @@ block content
 							.sidebar__news__date 3 Апреля 2018
 							.sidebar__news__title
 								a(href="#") WorldBuild Moscow/MosBuild 2018
-					a(href="#").link-item Показать все новости
-					.widget(style="position: relative; left: -30px")
+					a(href="#").link-item.hidden-md Показать все новости
+					.widget.hidden-md(style="position: relative; left: -30px")
 						img(src="images/socity-img-1.PNG", alt="")
-					.widget(style="position: relative; left: -20px")
+					.widget.hidden-md(style="position: relative; left: -20px")
 						img(src="images/socity-img-2.PNG", alt="")
-					.widget(style="position: relative; left: -10px")
+					.widget.hidden-md(style="position: relative; left: -10px")
 						img(src="images/socity-img-3.PNG", alt="")
 				.center-content
 					.row.no-gutters.justify-content-between
 						.slider
+							div
+								img(src="images/banner.jpg", alt="")
 							div
 								img(src="images/banner.jpg", alt="")
 						.links.hidden-md

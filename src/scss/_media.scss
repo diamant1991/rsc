@@ -27,6 +27,25 @@
 	.item-title{
 		font-size: 24px;
 	}
+	.content{
+		padding-top: 0;
+	}
+	.sidebar{
+		margin-top: 0;
+		width: 100%;
+	}
+	.sidebar__nav__content{
+		display: none;
+	}
+	.sidebar__btn{
+		font-size: 18px;
+		padding: 15px;
+		border-radius: 0;
+		cursor: pointer;
+	}
+	.align-items-center-md{
+    align-items: center !important;
+	}
 	.slider{
 		margin-bottom: 25px;
 	}
@@ -98,5 +117,8 @@
 	}
 	.logo{
 		width: 100px;
+	}
+	.sidebar__btn{
+		font-size: 16px;
 	}
 }

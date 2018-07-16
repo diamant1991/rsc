@@ -162,4 +162,27 @@
 }
 .mobile-panel{
 	display: none;
+	width: 100%;
+	left: 0;
+	top: 70px;
+	position: absolute;
+	z-index: 10;
+	background: #e0e0e0;
+	padding: 15px 0;
+	border-top: 1px solid #1578e0;
+
+	&__menu{
+		font-size: 18px;
+		font-family: $medium;
+
+		li{
+			+ li{
+				margin-top: 10px;
+			}
+		}
+
+		a{
+			color: #3e3e3e;
+		}
+	}
 }
