@@ -1,0 +1,255 @@
+extends pug/base
+
+append vars
+	//- ...
+
+block content
+	include pug/header
+	nav.nav.hidden-md
+		.container
+			ul.nav__menu
+				li
+					a(href="#") Производители 
+				li
+					a(href="#") О компании 
+				li
+					a(href="#") Новости
+				li
+					a(href="#") Контакты
+	.content
+		.container
+			.row.no-gutters.justify-content-between
+				.sidebar.hidden-md
+					.sidebar__nav
+						.sidebar__btn Каталог запчастей
+						.sidebar__nav__content
+							ul.sidebar__menu
+								li
+									a(href="#") CANDY TRIO
+								li
+									a(href="#") Электрические водонагреватели
+							.sidebar__title Бренды
+							ul.sidebar__menu
+								li
+									a(href="#") Aquatek
+								li
+									a(href="#") Ariston
+								li
+									a(href="#") ASKO
+							.sidebar__link 
+								a(href="#") Показать все бренды
+					.sidebar__news
+						h2.item-title Новости
+						.sidebar__news__item
+							.sidebar__news__date 3 Апреля 2018
+							.sidebar__news__title
+								a(href="#") WorldBuild Moscow/MosBuild 2018
+						.sidebar__news__item
+							.sidebar__news__date 3 Апреля 2018
+							.sidebar__news__title
+								a(href="#") WorldBuild Moscow/MosBuild 2018
+						.sidebar__news__item
+							.sidebar__news__date 3 Апреля 2018
+							.sidebar__news__title
+								a(href="#") WorldBuild Moscow/MosBuild 2018
+					a(href="#").link-item Показать все новости
+					.widget(style="position: relative; left: -30px")
+						img(src="images/socity-img-1.PNG", alt="")
+					.widget(style="position: relative; left: -20px")
+						img(src="images/socity-img-2.PNG", alt="")
+					.widget(style="position: relative; left: -10px")
+						img(src="images/socity-img-3.PNG", alt="")
+				.center-content
+					.row.no-gutters.justify-content-between
+						.slider
+							div
+								img(src="images/banner.jpg", alt="")
+						.links.hidden-md
+							.btn-item.row.no-gutters.align-items-center
+								div
+									| Хиты продаж
+							.btn-item.row.no-gutters.align-items-center
+								div
+									| Скидки
+					.advantages.row.hidden-md
+						.col-md-3
+							.advantages__icon
+								img(src="images/svg/delivery_truck.svg", width="50" alt="")
+							.advantages__text Доставка курьером по Москве
+						.col-md-3
+							.advantages__icon
+								img(src="images/svg/quality.svg", width="35" alt="")
+							.advantages__text Все товары сертифицированы
+						.col-md-3
+							.advantages__icon
+								img(src="images/svg/like.svg", width="38" alt="")
+							.advantages__text Положительные отзывы наших клиентов
+						.col-md-3
+							.advantages__icon
+								img(src="images/svg/time.svg", width="30"  alt="")
+							.advantages__text Возможна доставка «Сегодня на сегодня»
+					.catalog.row
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="", alt="")
+										.catalog__text.table-cell
+											| Запчасти для стиральных машин
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="", alt="")
+										.catalog__text.table-cell
+											| Запсасти для посудомоечных машин
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="images/svg/washer.svg", alt="")
+										.catalog__text.table-cell
+											| Запчасти для сушильных машин
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="", alt="")
+										.catalog__text.table-cell
+											| Запчасти для электрических плит
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="", alt="")
+										.catalog__text.table-cell
+											| Запчасти для варочных панелей
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="", alt="")
+										.catalog__text.table-cell
+											| Запчасти для газовых плит
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="", alt="")
+										.catalog__text.table-cell
+											| Запчасти для холодильников
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="images/svg/oven.svg", alt="")
+										.catalog__text.table-cell
+											| Запчасти для духовых шкафоф
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="images/svg/conditioner.svg", alt="")
+										.catalog__text.table-cell
+											| Запчасти для кондиционеров
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="", alt="")
+										.catalog__text.table-cell
+											| Запчасти для водонагревателей
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="", alt="")
+										.catalog__text.table-cell
+											| Запчасти для СВЧ печей
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="", alt="")
+										.catalog__text.table-cell
+											| Запчасти для кофемашин
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="images/svg/dishwasher.svg", alt="")
+										.catalog__text.table-cell
+											| Запчасти для CANDY TRIO
+
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="images/svg/exhaust.svg", alt="")
+										.catalog__text.table-cell
+											| Запчасти для вытяжек
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="images/svg/tv.svg", alt="")
+										.catalog__text.table-cell
+											| Запчасти для телевизоров
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="", alt="")
+										.catalog__text.table-cell
+											| Запчасти для мелкой бытовой техники
+						.col-xl-4.col-md-6
+							a(href="#")
+								.catalog__item.row.no-gutters.align-items-center
+									div
+										.catalog__icon.table-cell
+											img(src="", alt="")
+										.catalog__text.table-cell
+											| Аксессуары для бытовой химии
+					.product
+						h2.item-title Хиты продаж
+						.row
+							.col-xl-4.col-md-6
+								include pug/product
+							.col-xl-4.col-md-6
+								include pug/product
+							.col-xl-4.col-md-6
+								include pug/product
+							.col-xl-4.col-md-6
+								include pug/product
+							.col-xl-4.col-md-6
+								include pug/product
+							.col-xl-4.col-md-6
+								include pug/product
+					.text-block
+						h2.item-title О компании
+						p
+							|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, culpa quasi tempore assumenda, perferendis sunt. Quo consequatur saepe, commodi maxime.
+						p
+							|	 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati rerum consectetur odit accusamus quam fugiat provident recusandae ipsam blanditiis nostrum voluptates corporis nisi dolores, cumque perferendis quisquam. Itaque nam cupiditate commodi totam nisi ea dicta consequatur debitis, similique eum culpa officiis facere sit, asperiores iusto sint eos laborum labore dolore ad incidunt nihil praesentium! Ipsa, vitae perferendis aspernatur voluptates dolores libero at aperiam exercitationem dolore, neque, soluta asperiores harum commodi numquam odit dolor nam architecto ab officia voluptatum magnam. Libero, quasi soluta a laboriosam, maiores eius excepturi debitis rerum dolores sequi unde consequuntur praesentium expedita nesciunt odio, ullam molestias!
+	include pug/footer
+	
+
+						
+
+

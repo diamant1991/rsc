@@ -1,0 +1,44 @@
+.footer{
+	background: #01579b;
+	color: #fff;
+	padding: 25px 0;
+
+	&-contacts{
+		font-size: 14px;
+		font-family: $medium;
+
+		div{
+			+ div{
+				margin-top: 7px;
+			}
+		}
+	}
+}
+.footer-menu{
+	li{
+		+ li{
+			margin-top: 10px;
+		}
+	}
+	a{
+		color: #fff;
+	}
+}
+.footer-title{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 16px;
+	font-family: $bold;
+	margin-bottom: 15px;
+}
+.footer-item{
+	max-width: 350px;
+}
+.paypal{
+	&__item{
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+}

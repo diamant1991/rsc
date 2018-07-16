@@ -1,0 +1,19 @@
+.item-title{
+	font-size: 28px;
+	color: #3c3c3c;
+	font-family: $bold;
+	margin-bottom: 15px;
+}
+.link-item{
+	color: #1e88e5;
+	font-family: $bold;
+}
+.text-block{
+	line-height: 1.8;
+
+	p{
+		+ p{
+			margin-top: 40px;
+		}
+	}
+}

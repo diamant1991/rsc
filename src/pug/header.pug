@@ -1,0 +1,54 @@
+.mobile-panel
+	ul
+		li
+			a(href="#") Производители
+		li
+			a(href="#") О компании
+		li
+			a(href="#") Новости
+		li
+			a(href="#") Контакты
+	
+.top-panel
+	.container
+		.row.no-gutters.align-items-center.justify-content-between
+			.top-panel__item
+				a(href="#").top-link 
+					span.middle.user-icon
+					span.middle.hidden-md Вход
+				a(href="#").top-link 
+					span.middle.user-plus-icon
+					span.middle.hidden-md Регистрация
+			.top-panel__item
+				a(href="#").top-link 
+					span.middle.delivery-icon
+					span.middle.hidden-md Доставка и оплата
+			.top-panel__item
+				.top-panel__basket.middle
+					a(href="#")
+						span.middle.cart-icon
+							span.cart-count 56
+					span.middle.hidden-md
+						a(href="#").top-link Моя корзина
+						.total-price 56 000.00 руб.
+				.middle.hidden-md
+					a(href="#").btn.btn-green Оформить
+			.hamburger-box.visible-md
+				.hamburger-inner
+header.header
+	.container
+		.row.no-gutters.justify-content-between
+			.logo
+				a(href="#")
+					img(src="images/market.png", alt="")
+			.h-center.hidden-md
+				.h-center__top.row.no-gutters.justify-content-between
+					div.hidden-lg Магазин запчастей бытовой техники
+					div Работаем с 09:00 до 21:00
+				.search
+					input(type="text", placeholder="Поиск запчастей").search__field
+					button(type="submit").search__btn
+			.h-info
+				div СБ и ВС - Выходной
+				.h-info__tel +7 (499) 281-67-84
+				.h-info__tel +7 (977) 769-16-33
