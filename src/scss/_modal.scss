@@ -34,6 +34,15 @@
   transform: translate(0, -25%);
 }
 
+.form-group--footer{
+  padding-top: 15px;
+  margin-top: 10px;
+  border-top: 1px solid #dcdcdc;
+}
+.forget-password{
+  margin-bottom: 15px;
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
   .modal.fade .modal-dialog {
     transition: none;
@@ -64,6 +73,8 @@
   background-color: #fff;
   background-clip: padding-box;
   outline: 0;
+  padding: 30px;
+  border-radius: 8px;
 }
 .modal-close{
   position: absolute;
@@ -96,16 +107,13 @@
 
 .modal-header {
   position: relative;
-  padding: 20px 10px;
+  padding: 10px;
   text-align: center;
   text-transform: uppercase;
-  background: #f7f7f7;
   padding-right: 30px;
 
-  h5{
-    font-size: 16px;
-    font-family: $medium;
-    margin-bottom: 0;
+  h2{
+    text-transform: none;
   }
 }
 
@@ -145,9 +153,9 @@
   overflow: scroll;
 }
 .modal-form{
-  padding-top: 40px;
-  padding-bottom: 70px;
   margin: auto;
+  color: #3c3c3c;
+  font-size: 14px;
 }
 .modal-wrapper{
   padding-top: 45px;
@@ -189,7 +197,7 @@
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 580px;
+    max-width: 370px;
     margin: 1.75rem auto;
   }
   .modal-dialog-centered {
@@ -197,9 +205,6 @@
   }
   .modal-sm {
     max-width: 300px;
-  }
-  .modal-form{
-    width: 420px;
   }
 }
 @media(max-width: 575px){

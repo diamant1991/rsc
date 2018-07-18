@@ -1,0 +1,24 @@
+.modal.fade#enter(tabindex="-1" role="dialog" aria-hidden="true")
+	.modal-dialog(role="document")
+		.modal-content
+			.modal-header
+				h2.item-title Вход на сайт
+			.modal-form
+				form
+					.form-group
+						.form-label Ваш логин
+						input(type="text" placeholder="Admin").form-control.form-control--modal
+					.form-group
+						.form-label Ваш пароль
+						input(type="password").form-control.form-control--modal
+					.form-group
+						.checkbox-group
+							input#check.checkbox(type="checkbox")
+							label(for="check") Запомнить меня
+					.form-group.form-group--submit
+						button(type="submit").btn.btn-blue.btn-submit Войти
+					.form-group--footer
+						.forget-password
+							a(href="#").link-btn Забыли пароль?
+						div Если вы впервые на сайте, заполните, пожалуйста, регистрационную форму. 
+						a(href="#").link-btn Зарегистрироваться
