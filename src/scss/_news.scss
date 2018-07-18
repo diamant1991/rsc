@@ -1,0 +1,33 @@
+.news-img{
+	height: 175px;
+	background-size: cover;
+	background-position: 50%;
+}
+.news-item{
+	border: 1px solid #c4c4c4;
+	border-radius: 7px 7px 0 0;
+	margin-bottom: 25px;
+}
+.news-img{
+	border-radius: 7px 7px 0 0;
+}
+.news-descr{
+	padding: 20px 15px;
+}
+.news-title{
+	font-size: 18px;
+	font-family: $bold;
+	margin-bottom: 10px;
+
+	a{
+		color: #3c3c3c;
+	}
+}
+.news-text{
+	margin-bottom: 10px;
+}
+.news-date{
+	font-size: 14px;
+	color: #8b8b8b;
+	margin-bottom: 10px;
+}

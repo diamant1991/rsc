@@ -1,0 +1,48 @@
+.pagination{
+	margin-top: 30px;
+}
+
+.pagination-menu{
+	li{
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 10px;
+	}
+	a{
+		display: block;
+		width: 40px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		border-radius: 8px;
+		background: #eceff1;
+		font-size: 16px;
+		font-family: $medium;
+		color: $main;
+
+		&:hover,
+		&.current{
+			background: #1e88e5;
+			color: #fff;
+		}
+	}
+}
+.pagination-btn{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 8px;
+	background: #eceff1;
+	font-size: 16px;
+	font-family: $medium;
+	color: $main;
+
+	&:hover{
+		background: #1e88e5;
+		color: #fff;
+	}
+}
+.pagination-btn--left{
+	margin-right: 10px;
+}
