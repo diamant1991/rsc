@@ -656,3 +656,7 @@ html {
   -ms-flex-pack: justify!important;
   justify-content: space-between!important;
 }
+.align-items-end{
+  -ms-flex-align: end!important;
+    align-items: flex-end!important;
+}

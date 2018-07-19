@@ -47,8 +47,52 @@ header.header
 					div.hidden-lg Магазин запчастей бытовой техники
 					div Работаем с 09:00 до 21:00
 				.search
-					input(type="text", placeholder="Поиск запчастей").search__field
-					button(type="submit").search__btn
+					form(action="")
+						input(type="text", placeholder="Поиск запчастей").search__field
+						button(type="submit").search__btn
+					.search-result
+						.search-result__item.row.no-gutters.align-items-end.justify-content-between
+							div.search-result__img
+								a(href="#")
+									img(src="images/p-img.png", alt="")
+							div.search-result__info
+								.product__articul Артикул: 1017838
+								a(href="#")
+									.product__name Телескопические направляющие 100%
+							div.search-result__price
+								.product__price 
+									span 560.00 
+									| руб./шт.
+							div.search-result__status
+								.product__status.status-in В наличии 2
+								.counter
+									a(href="#").counter-btn -
+									input(type="text" value="1").counter-field
+									a(href="#").counter-btn +
+							div.search-result__btn
+								a(href="#").btn.btn-blue В корзину
+						.search-result__item.row.no-gutters.align-items-end.justify-content-between
+							div.search-result__img
+								a(href="#")
+									img(src="images/p-img.png", alt="")
+							div.search-result__info
+								.product__articul Артикул: 1017838
+								a(href="#")
+									.product__name Телескопические направляющие 100%
+							div.search-result__price
+								.product__price 
+									span 560.00 
+									| руб./шт.
+							div.search-result__status
+								.product__status.status-in В наличии 2
+								.counter
+									a(href="#").counter-btn -
+									input(type="text" value="1").counter-field
+									a(href="#").counter-btn +
+							div.search-result__btn
+								a(href="#").btn.btn-blue В корзину
+						.search-result__footer
+							a(href="#").link-item.link-border  Показать все результаты
 			.h-info
 				div СБ и ВС - Выходной
 				.h-info__tel +7 (499) 281-67-84
