@@ -1,0 +1,55 @@
+extends pug/base
+
+append vars
+	//- ...
+
+block content
+	.wrapper
+		include pug/header
+		nav.nav.hidden-md
+			.container
+				ul.nav__menu
+					li
+						a(href="#") Производители 
+					li
+						a(href="#") О компании 
+					li
+						a(href="#") Новости
+					li
+						a(href="#") Контакты
+		.content
+			.container
+				.row.no-gutters.justify-content-between
+					.sidebar.sidebar--inner
+						.sidebar__nav
+							.sidebar__btn.sidebar__btn--inner Каталог запчастей
+							.sidebar__nav__content.sidebar__nav__content--inner
+								ul.sidebar__menu
+									li
+										a(href="#") CANDY TRIO
+									li
+										a(href="#") Электрические водонагреватели
+								.sidebar__title Бренды
+								ul.sidebar__menu
+									li
+										a(href="#") Aquatek
+									li
+										a(href="#") Ariston
+									li
+										a(href="#") ASKO
+								.sidebar__link 
+									a(href="#") Показать все бренды
+				.content-wrapp
+					ul.breadcrumb
+						li
+							a(href="#") Главная
+						li
+							| Новости
+				.content-text
+					.page-text
+						.news-date 05.06.2018
+						h2.item-title СКИДКА 5% ПРИ РЕГИСТРАЦИИ
+						img(src="images/new-banner.jpg", alt="")
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dignissimos fugiat reiciendis aut minus modi corrupti cum doloremque quia natus quaerat saepe repellendus hic animi, necessitatibus, iusto cumque asperiores delectus dolores sed a dolorem dicta! Doloribus et enim, alias quos eius a eum laboriosam quibusdam cum harum perspiciatis, consectetur magni nostrum ratione natus quasi obcaecati, iste ducimus nesciunt sint dicta tempora commodi. Consequatur fugit corporis quisquam, nemo doloremque ipsum! Dignissimos illum corrupti debitis at porro delectus repudiandae ea quia suscipit autem deleniti culpa, ipsum ipsam, natus obcaecati repellat eos. Iusto hic ipsa quidem reiciendis illum quaerat, amet velit natus ex.
+	include pug/footer
+	include pug/modals

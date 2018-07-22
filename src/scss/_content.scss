@@ -31,6 +31,16 @@
 	+ .btn-item{
 		margin-top: 15px;
 	}
+	&__text{
+		text-align: left;
+		max-width: 80px;
+	}
+	&__content{
+		display: inline-block;
+	}
+	&__icon{
+		width: 70px;
+	}
 }
 .advantages{
 	margin-top: 30px;

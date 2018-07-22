@@ -172,6 +172,20 @@
   transform: translate(0, -50%);
   text-indent: -9999px;
   border-radius: 0 5px 5px 0;
+
+  &:before{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 14px;
+    background: url(../images/svg/arrow_point_to_left.svg)no-repeat;
+    background-size: contain;
+  }
 }
 .slick-next{
   width: 30px;
@@ -188,6 +202,20 @@
   position: absolute;
   transform: translate(0, -50%);
   border-radius: 5px 0 0 5px;
+
+  &:after{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 14px;
+    background: url(../images/svg/arrow_point_to_right.svg)no-repeat;
+    background-size: contain;
+  }
 }
 .slider-prev--carousel{
   position: absolute;

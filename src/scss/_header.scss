@@ -47,7 +47,22 @@
 		right: 0;
 		top: 0;
 		border: 0;
+		outline: 0;
+		cursor: pointer;
 		border-radius: 0 7px 7px 0;
+
+		&:after{
+			content: "";
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			width: 21px;
+			height: 22px;
+			z-index: 2;
+			transform: translate(-50%, -50%);
+			background: url(../images/svg/search.svg)no-repeat;
+			background-size: contain;
+		}
 	}
 }
 .h-info{
@@ -63,26 +78,30 @@
 	margin-right: 8px;
 	width: 22px;
 	height: 26px;
-	background: url(../images/001-profile.png)no-repeat;
+	background: url(../images/svg/profile.svg)no-repeat;
+	background-size: contain;
 }
 .user-plus-icon{
 	margin-right: 8px;
 	width: 24px;
 	height: 28px;
-	background: url(../images/002-add.png)no-repeat;
+	background: url(../images/svg/add.svg)no-repeat;
+	background-size: contain;
 }
 .delivery-icon{
 	width: 30px;
 	height: 22px;
 	margin-right: 8px;
-	background: url(../images/002-delivery-truck.png)no-repeat;
+	background: url(../images/svg/delivery_truck.svg)no-repeat;
+	background-size: contain;
 }
 .cart-icon{
 	width: 45px;
 	height: 40px;
 	position: relative;
 	margin-right: 15px;
-	background: url(../images/supermarket.png)no-repeat;
+	background: url(../images/svg/supermarket.svg)no-repeat;
+	background-size: contain;
 }
 .cart-count{
 	position: absolute;
@@ -187,6 +206,7 @@
 	}
 }
 .search-result{
+	display: none;
 	margin-top: 20px;
 	position: absolute;
 	z-index: 5;
