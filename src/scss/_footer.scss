@@ -35,10 +35,28 @@
 	max-width: 350px;
 }
 .paypal{
+	margin-bottom: 5px;
+	
 	&__item{
 		display: inline-block;
 		vertical-align: middle;
 		margin-right: 10px;
 		margin-bottom: 10px;
+	}
+}
+
+.social{
+	&__item{
+		width: 28px;
+		height: 28px;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 28px;
+		background: #fff;
+		color: $blue2;
+
+		+ .social__item{
+			margin-left: 10px;
+		}
 	}
 }

@@ -111,8 +111,21 @@
 	.h-info{
 		font-size: 14px;
 	}
+	.hidden-xs{
+		display: none;
+	}
 	.h-info__tel{
 		font-size: 16px;
+	}
+	.payment{
+		&__img{
+			width: auto;
+			text-align: left;
+			display: block;
+		}
+		&__text{
+			display: block;
+		}
 	}
 	.catalog__item{
 		height: 105px;

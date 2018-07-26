@@ -7,6 +7,10 @@
 .wrapper{
 	min-height: calc(100% - 225px);
 }
+.bottom-block{
+	display: inline-block;
+	vertical-align: bottom;
+}
 .content{
 	padding: 20px 0;
 	padding-bottom: 70px;
@@ -49,6 +53,11 @@
 .breadcrumb{
 	font-size: 14px;
 	margin-bottom: 35px;
+
+	&__delimiter{
+		font-size: 16px;
+		margin: 0 5px;
+	}
 
 	li{
 		display: inline-block;
