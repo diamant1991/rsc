@@ -86,3 +86,31 @@
 		margin-left: 3px;
 	}
 }
+
+.product-carousel .slick-slide {
+  margin: 0 15px;
+}
+.product-carousel .slick-list {
+  margin: 0 -15px;
+}
+.carousel-btn{
+	width: 38px;
+	height: 38px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 1px solid #bdbdbd;
+}
+.prev-btn{
+	background: url(../images/left-arrow.png)no-repeat 50%;
+}
+.next-btn{
+	margin-left: 5px;
+	background: url(../images/right-arrow.png)no-repeat 50%;
+}
+.product-carousel-header{
+	margin-bottom: 15px;
+
+	h2{
+		margin-bottom: 0 !important;
+	}
+}

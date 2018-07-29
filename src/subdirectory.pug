@@ -1,0 +1,278 @@
+extends pug/base
+
+append vars
+	//- ...
+
+block content
+	.wrapper
+		include pug/header
+		nav.nav.hidden-md
+			.container
+				ul.nav__menu
+					li
+						a(href="#") Производители 
+					li
+						a(href="#") О компании 
+					li
+						a(href="#") Новости
+					li
+						a(href="#") Контакты
+		.content
+			.container
+				.row.no-gutters.justify-content-between
+					.sidebar
+						.sidebar__nav
+							.sidebar__btn 
+								span.middle.sidebar__btn__icon
+									img(src="images/svg/menu.svg", alt="")
+								span.middle Каталог запчастей
+							.sidebar__nav__content
+								ul.sidebar__menu
+									li
+										a(href="#") CANDY TRIO
+									li
+										a(href="#") Электрические водонагреватели
+								.sidebar__title Бренды
+								ul.sidebar__menu
+									li
+										a(href="#") Aquatek
+									li
+										a(href="#") Ariston
+									li
+										a(href="#") ASKO
+								.sidebar__link 
+									a(href="#") Показать все бренды
+						.sidebar__news.hidden-md
+							h2.item-title Новости
+							.sidebar__news__item
+								.sidebar__news__date 3 Апреля 2018
+								.sidebar__news__title
+									a(href="#") WorldBuild Moscow/MosBuild 2018
+							.sidebar__news__item
+								.sidebar__news__date 3 Апреля 2018
+								.sidebar__news__title
+									a(href="#") WorldBuild Moscow/MosBuild 2018
+							.sidebar__news__item
+								.sidebar__news__date 3 Апреля 2018
+								.sidebar__news__title
+									a(href="#") WorldBuild Moscow/MosBuild 2018
+						a(href="#").link-item.hidden-md Показать все новости
+						.widget.hidden-md(style="position: relative; left: -30px")
+							img(src="images/socity-img-1.PNG", alt="")
+						.widget.hidden-md(style="position: relative; left: -20px")
+							img(src="images/socity-img-2.PNG", alt="")
+						.widget.hidden-md(style="position: relative; left: -10px")
+							img(src="images/socity-img-3.PNG", alt="")
+					.center-content
+						ul.breadcrumb
+							li
+								a(href="#").middle Главная
+								span.middle.breadcrumb__delimiter
+									i.zmdi.zmdi-arrow-right
+							li
+								| Запчасти для мелкой бытовой техники
+						h2.item-title Запчасти для мелкой бытовой техники
+						.catalog.row
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/multivariate.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для мультиварок
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/blender_small.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для блендеров
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/grinder.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для мясорубок
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/shredder.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для измельчителей и кранов
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/mixer.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для миксеров
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/water.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для смесителей воды
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/aerogrill.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для аэрогрилей
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/ventilator.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для вентиляторов
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/heater.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для обогревателей
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/air_purifier.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для очистителей воздуха
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/food_steamer.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для пароварок
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/vacuum_cleaner.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для пылесосов
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/pot.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для скороварок
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/juicer.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для соковыжималок
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/thermos.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для термопотов
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/toaster.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для тостеров
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/humidifier.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для увлажнителей
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/iron.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для утюгов
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/hair_dryer.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для фенов
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/electric_scales.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для электрических весов
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/electric_kettle.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для электрочайников
+							.col-xl-4.col-md-6
+								a(href="#")
+									.catalog__item.row.no-gutters.align-items-center
+										div
+											.catalog__icon.table-cell
+												img(src="images/svg/bread.svg", alt="")
+											.catalog__text.table-cell
+												| Запчасти для хлебопечек
+						.product
+							.product-carousel-header.row.no-gutters.align-items-center.justify-content-between
+								h2.item-title Хиты продаж
+								.carousel-btn-block
+									.carousel-btn.prev-btn.middle
+									.carousel-btn.next-btn.middle
+							.product-carousel
+								div
+									include pug/product
+								div
+									include pug/product
+								div
+									include pug/product
+								div
+									include pug/product
+								div
+									include pug/product
+								div
+									include pug/product
+						.text-block
+							h2.item-title О компании
+							p
+								|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, culpa quasi tempore assumenda, perferendis sunt. Quo consequatur saepe, commodi maxime.
+							p
+								|	 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati rerum consectetur odit accusamus quam fugiat provident recusandae ipsam blanditiis nostrum voluptates corporis nisi dolores, cumque perferendis quisquam. Itaque nam cupiditate commodi totam nisi ea dicta consequatur debitis, similique eum culpa officiis facere sit, asperiores iusto sint eos laborum labore dolore ad incidunt nihil praesentium! Ipsa, vitae perferendis aspernatur voluptates dolores libero at aperiam exercitationem dolore, neque, soluta asperiores harum commodi numquam odit dolor nam architecto ab officia voluptatum magnam. Libero, quasi soluta a laboriosam, maiores eius excepturi debitis rerum dolores sequi unde consequuntur praesentium expedita nesciunt odio, ullam molestias!
+	include pug/footer
+	include pug/modals

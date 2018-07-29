@@ -1,0 +1,19 @@
+.register-form{
+	max-width: 375px;
+}
+.form-red-star{
+	color: #b53030;
+}
+.form-info{
+	font-size: 14px;
+	margin-top: 35px;
+
+	p{
+		+ p{
+			margin-top: 15px;
+		}
+	}
+}
+.form-group--policy{
+	padding: 20px 0;
+}

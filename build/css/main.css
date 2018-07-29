@@ -6558,7 +6558,10 @@ b {
   vertical-align: middle;
   -webkit-border-radius: 50px;
      -moz-border-radius: 50px;
-          border-radius: 50px; }
+          border-radius: 50px;
+  cursor: pointer;
+  outline: 0;
+  border: 0; }
 
 .btn-green {
   font-size: 19.5px;
@@ -6581,6 +6584,9 @@ b {
   padding-right: 15px;
   font-size: 16px;
   font-family: "DINProMedium"; }
+
+.btn-form {
+  min-width: 170px; }
 
 .top-panel {
   padding: 15px 0;
@@ -7143,6 +7149,33 @@ b {
     margin: 0 5px;
     margin-left: 3px; }
 
+.product-carousel .slick-slide {
+  margin: 0 15px; }
+
+.product-carousel .slick-list {
+  margin: 0 -15px; }
+
+.carousel-btn {
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  border: 1px solid #bdbdbd; }
+
+.prev-btn {
+  background: url(../images/left-arrow.png) no-repeat 50%; }
+
+.next-btn {
+  margin-left: 5px;
+  background: url(../images/right-arrow.png) no-repeat 50%; }
+
+.product-carousel-header {
+  margin-bottom: 15px; }
+  .product-carousel-header h2 {
+    margin-bottom: 0 !important; }
+
 .contact-item {
   margin-bottom: 40px; }
 
@@ -7269,6 +7302,21 @@ b {
   .payment-info p + p {
     margin-top: 20px; }
 
+.register-form {
+  max-width: 375px; }
+
+.form-red-star {
+  color: #b53030; }
+
+.form-info {
+  font-size: 14px;
+  margin-top: 35px; }
+  .form-info p + p {
+    margin-top: 15px; }
+
+.form-group--policy {
+  padding: 20px 0; }
+
 .footer {
   background: #01579b;
   color: #fff;
@@ -7327,6 +7375,7 @@ b {
   padding: 0 0 0 20px;
   cursor: pointer;
   font-size: 14px;
+  display: inline-block;
   font-family: "DINPro"; }
 
 .checkbox + label:before {
