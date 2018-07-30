@@ -114,3 +114,30 @@
 		margin-bottom: 0 !important;
 	}
 }
+
+.list-item{
+	border: 1px solid #c4c4c4;
+	padding: 20px;
+	border-radius: 7px;
+	margin-bottom: 20px;
+
+	.product__status{
+		margin-bottom: 0;
+	}
+	.product__price{
+		margin-bottom: 0;
+	}
+}
+.list-item__photo{
+	width: 80px;
+}
+.list-item__name{
+	max-width: 200px;
+}
+.tab-pane{
+	display: none;
+
+	&.active{
+		display: block;
+	}
+}

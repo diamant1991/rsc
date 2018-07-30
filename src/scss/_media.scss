@@ -13,6 +13,12 @@
 			margin-top: 35px;
 		}
 	}
+	.sorting{
+		 > div{
+		 	width: 100%;
+		 	margin-bottom: 20px;
+		 }
+	}
 }
 
 @media(min-width: 992px){
@@ -30,6 +36,14 @@
 	.content{
 		padding-top: 0;
 	}
+	#view3,
+	#view1{
+		display: none;
+	}
+	#view2{
+		display: block !important;
+	}
+
 	.sidebar{
 		margin-top: 0;
 		width: 100%;
