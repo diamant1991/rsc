@@ -19,11 +19,28 @@
 		 	margin-bottom: 20px;
 		 }
 	}
+	.list-item .product__status{
+		text-align: left;
+	}
+	.g-info{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.tooltip{
+		margin-bottom: 20px;
+	}
 }
 
 @media(min-width: 992px){
 	.visible-md{
 		display: none !important;
+	}
+	.tooltip{
+		&:hover{
+			.tooltip-item{
+				display: block;
+			}
+		}
 	}
 }
 @media(max-width: 991px){
