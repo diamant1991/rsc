@@ -13,6 +13,28 @@
 			margin-top: 35px;
 		}
 	}
+	.card-slide{
+		height: 300px;
+		padding: 10px;
+
+		> div{
+
+			img{
+				max-height: 250px;
+			}
+		}
+	}
+	.thumb-item{
+		width: 85px;
+		height: 85px;
+		padding: 5px;
+
+		 > div{
+		 	img{
+		 		max-height: 75px;
+		 	}
+		 }
+	}
 	.sorting{
 		 > div{
 		 	width: 100%;
@@ -128,8 +150,24 @@
 			margin-top: 30px;
 		}
 	}
-	h3{
+	.product__price--large{
+		font-size: 21px;
+	}
+	.product__price--large span{
+		font-size: 28px;
+	}
+	h3,
+	h3.h3-middle{
 		font-size: 18px;
+	}
+	.card-info{
+		margin-top: 30px;
+	}
+	.card-info-top{
+		text-align: left;
+	}
+	.card-count{
+		text-align: left;
 	}
 	.item-title{
 		font-size: 20px;
@@ -156,6 +194,16 @@
 		}
 		&__text{
 			display: block;
+		}
+	}
+	.thumb-item{
+		width: 50px;
+		height: 50px;
+
+		> div{
+			img{
+				max-height: 45px;
+			}
 		}
 	}
 	.catalog__item{

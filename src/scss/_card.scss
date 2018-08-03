@@ -1,0 +1,152 @@
+.card{
+	margin-top: 40px;
+}
+.card-slide{
+	text-align: center;
+	height: 445px;
+	border: 1px solid #c4c4c4;
+	border-radius: 5px;
+
+	> div{
+		width: 100%;
+
+		img{
+			max-height: 430px;
+		}
+	}
+}
+.slickslide{
+	.slick-dots{
+		margin-top: 15px;
+	}
+	.slick-dots button{
+		border: 0;
+    outline: 0;
+    cursor: pointer;
+    text-indent: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    width: auto;
+    height: auto;
+    background: none;
+	}
+	.slick-dots li{
+		margin: 0;
+	}
+}
+.thumb-item{
+	height: 105px;
+	border: 1px solid #c4c4c4;
+	border-radius: 5px;
+	width: 130px;
+	text-align: center;
+	margin: 4px;
+
+	> div{
+		width: 100%;
+
+		img{
+			max-height: 90px;
+		}
+	}
+}
+.slick-thumbs{
+	margin-left: -4px;
+	margin-top: 20px;
+	opacity: 0;
+	display: none;
+	visibility: hidden;
+
+	li{
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+.card-info-top{
+	text-align: right;
+}
+.card-count{
+	text-align: right;
+}
+.card-info{
+	height: 100%;
+	flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+.card-count{
+	margin-bottom: 30px;
+}
+.card-rating{
+	margin-bottom: 20px;
+}
+.analogs{
+	margin-top: 50px;
+}
+.technical{
+	margin-top: 50px;
+	margin-bottom: 30px;
+
+	table{
+		font-size: 16px;
+		color: #3c3c3c;
+		width: 100%;
+	}
+	td{
+		padding: 10px 15px;
+
+		&:first-child{
+			border-radius: 5px 0 0 5px;
+		}
+		&:last-child{
+			border-radius: 0 5px 5px 0;
+		}
+		
+	}
+	tr{
+		&:nth-child(odd){
+			background: #e8e8e8;
+		}
+	}
+}
+.also-buy{
+	margin-top: 45px;
+}
+.text-block--border{
+	border-top: 1px dashed #b8b8b8;
+	padding-top: 30px;
+}
+.models__list{
+	li{
+		margin-bottom: 10px;
+	}
+	a{
+		color: #3c3c3c;
+	}
+}
+.watched{
+	margin-top: 50px;
+}
+.watch-item{
+	width: 70px;
+	height: 55px;
+	text-align: center;
+	border: 1px solid #c4c4c4;
+	border-radius: 5px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+
+	&__content{
+		height: 100%;
+
+		> div{
+			width: 100%;
+
+			img{
+				max-height: 40px;
+			}
+		}
+	}
+}

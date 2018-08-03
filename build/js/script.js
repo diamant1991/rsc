@@ -49,3 +49,17 @@ $('.product-carousel').slick({
     }
   ]
 });
+
+
+$('.slickslide').slick({
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    slidesToShow: 1,
+    customPaging: function (slider, i) {
+        return '<button class="tab">' + $('.slick-thumbs li:nth-child(' + (i + 1) + ')').html() + '</button>';
+    }
+});
+

@@ -55,7 +55,7 @@
 .counter{
 	display: inline-block;
 	vertical-align: middle;
-	margin-right: 10px;
+	margin-right: 5px;
 
 	&-btn{
 		display: inline-block;
@@ -132,6 +132,7 @@
 	width: 80px;
 }
 .list-item__name{
+	font-size: 18px;
 	max-width: 200px;
 }
 .tab-pane{
@@ -232,5 +233,21 @@ h3.product-title{
 		+ p{
 			margin-top: 12px;
 		}
+	}
+}
+.product__price--large{
+	font-size: 23px;
+	margin-bottom: 20px;
+
+	span{
+		font-size: 33px;
+	}
+}
+.product__status--large{
+	font-size: 18px;
+
+	img{
+		position: relative;
+		top: 3px;
 	}
 }
