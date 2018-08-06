@@ -63,3 +63,11 @@ $('.slickslide').slick({
     }
 });
 
+$('.view-btn').click(function(e) {
+  e.preventDefault()
+  var id = $(this).attr('data-target')
+  $('.view-btn').removeClass('active')
+  $(this).addClass('active')
+  $('.tab-pane').removeClass('active')
+  $('' + id).addClass('active')
+});

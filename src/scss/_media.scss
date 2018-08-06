@@ -75,6 +75,9 @@
 	.content{
 		padding-top: 0;
 	}
+	.profile-nav__title{
+		font-size: 20px;
+	}
 	#view3,
 	#view1{
 		display: none;
@@ -156,6 +159,9 @@
 	.product__price--large span{
 		font-size: 28px;
 	}
+	.profile__name a{
+		font-size: 20px;
+	}
 	h3,
 	h3.h3-middle{
 		font-size: 18px;
@@ -185,6 +191,9 @@
 	}
 	.h-info__tel{
 		font-size: 16px;
+	}
+	.profile-nav__title{
+		font-size: 18px;
 	}
 	.payment{
 		&__img{

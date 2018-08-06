@@ -1,0 +1,68 @@
+.profile{
+	margin-bottom: 30px;
+
+	&__icon{
+		width: 70px;
+		height: 70px;
+		line-height: 65px;
+		background: #dcdcdc;
+		border-radius: 50%;
+		text-align: center;
+		background-position: 50%;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		img{
+			vertical-align: middle;
+		}
+	}
+	&__name{
+		margin-bottom: 5px;
+
+		a{
+			font-size: 24px;
+			font-family: $medium;
+			color: #3c3c3c;
+		}
+	}
+	&__info{
+		padding-left: 20px;
+	}
+	&__btn{
+		&__icon{
+			position: relative;
+			top: 2px;
+		}
+		&__text{
+			margin-left: 5px;
+			color: #7d7d7d;
+			border-bottom: 1px solid;
+		}
+	}
+}
+
+.profile-nav{
+	max-width: 870px;
+
+	&__icon{
+		height: 60px;
+		line-height: 60px;
+
+		img{
+			vertical-align: middle;
+		}
+	}
+	&__item{
+		text-align: center;
+		background: #1e88e5;
+		border-radius: 7px;
+		padding: 20px 15px;
+		margin-bottom: 30px;
+	}
+	&__title{
+		color: #fff;
+		margin-top: 5px;
+		font-size: 22px;
+		font-family: $medium;
+	}
+}

@@ -7643,6 +7643,61 @@ h3.product-title {
       .watch-item__content > div img {
         max-height: 40px; }
 
+.profile {
+  margin-bottom: 30px; }
+  .profile__icon {
+    width: 70px;
+    height: 70px;
+    line-height: 65px;
+    background: #dcdcdc;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    text-align: center;
+    background-position: 50%;
+    -moz-background-size: cover;
+      -o-background-size: cover;
+         background-size: cover;
+    background-repeat: no-repeat; }
+    .profile__icon img {
+      vertical-align: middle; }
+  .profile__name {
+    margin-bottom: 5px; }
+    .profile__name a {
+      font-size: 24px;
+      font-family: "DINProMedium";
+      color: #3c3c3c; }
+  .profile__info {
+    padding-left: 20px; }
+  .profile__btn__icon {
+    position: relative;
+    top: 2px; }
+  .profile__btn__text {
+    margin-left: 5px;
+    color: #7d7d7d;
+    border-bottom: 1px solid; }
+
+.profile-nav {
+  max-width: 870px; }
+  .profile-nav__icon {
+    height: 60px;
+    line-height: 60px; }
+    .profile-nav__icon img {
+      vertical-align: middle; }
+  .profile-nav__item {
+    text-align: center;
+    background: #1e88e5;
+    -webkit-border-radius: 7px;
+       -moz-border-radius: 7px;
+            border-radius: 7px;
+    padding: 20px 15px;
+    margin-bottom: 30px; }
+  .profile-nav__title {
+    color: #fff;
+    margin-top: 5px;
+    font-size: 22px;
+    font-family: "DINProMedium"; }
+
 .footer {
   background: #01579b;
   color: #fff;
@@ -7793,6 +7848,8 @@ h3.product-title {
     font-size: 24px; }
   .content {
     padding-top: 0; }
+  .profile-nav__title {
+    font-size: 20px; }
   #view3,
   #view1 {
     display: none; }
@@ -7855,6 +7912,8 @@ h3.product-title {
     font-size: 21px; }
   .product__price--large span {
     font-size: 28px; }
+  .profile__name a {
+    font-size: 20px; }
   h3,
   h3.h3-middle {
     font-size: 18px; }
@@ -7876,6 +7935,8 @@ h3.product-title {
     display: none; }
   .h-info__tel {
     font-size: 16px; }
+  .profile-nav__title {
+    font-size: 18px; }
   .payment__img {
     width: auto;
     text-align: left;

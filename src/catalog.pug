@@ -87,11 +87,11 @@ block content
 								a(href="#").middle.sorting-btn 48
 								a(href="#").middle.sorting-btn Все
 							.view.hidden-md
-								a(href="#").view-btn.view-list.middle.active 1
-								a(href="#").view-btn.view-column.middle 2
-								a(href="#").view-btn.view-horizontal.middle 3
+								a(href="#" data-target="#view1").view-btn.view-list.middle.active 1
+								a(href="#" data-target="#view2").view-btn.view-column.middle 2
+								a(href="#" data-target="#view3").view-btn.view-horizontal.middle 3
 						.tab-content
-							.tab-pane#view1
+							.tab-pane.active#view1
 								.list-item
 									.row.no-gutters.align-items-center.justify-content-between
 										.list-item__photo
@@ -142,7 +142,7 @@ block content
 										include pug/product
 									.col-xl-4.col-md-6
 										include pug/product
-							.tab-pane.active#view3
+							.tab-pane#view3
 								.list-item
 									.row.no-gutters.align-items-center.justify-content-between
 										.g-photo
