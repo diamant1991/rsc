@@ -79,7 +79,10 @@ block content
 							div 
 								span.middle.sorting-title Сортировать по:
 								a(href="#").middle.sorting-btn Умолчанию
-								a(href="#").middle.sorting-btn.active Цене
+								a(href="#").middle.sorting-btn.active 
+									span Цене
+									span.filter-arrow
+										img(src="images/filter-arrow.png", alt="")
 								a(href="#").middle.sorting-btn Рейтингу
 							div 
 								span.middle.sorting-title Показывать по:
@@ -87,9 +90,16 @@ block content
 								a(href="#").middle.sorting-btn 48
 								a(href="#").middle.sorting-btn Все
 							.view.hidden-md
-								a(href="#" data-target="#view1").view-btn.view-list.middle.active 1
-								a(href="#" data-target="#view2").view-btn.view-column.middle 2
-								a(href="#" data-target="#view3").view-btn.view-horizontal.middle 3
+								a(href="#" data-target="#view1").view-btn.view-list.middle.active
+									img(src="images/svg/list-view.svg", alt="").icon-grey
+									img(src="images/svg/list-view-white.svg", alt="").icon-white
+								a(href="#" data-target="#view2").view-btn.view-column.middle 
+									img(src="images/svg/table.svg", alt="").icon-grey
+									img(src="images/svg/table-white.svg", alt="").icon-white
+								a(href="#" data-target="#view3").view-btn.view-horizontal.middle
+									img(src="images/svg/tile.svg", alt="").icon-grey
+									img(src="images/svg/tile-white.svg", alt="").icon-white
+
 						.tab-content
 							.tab-pane.active#view1
 								.list-item
@@ -287,7 +297,7 @@ block content
 								li ...
 								li
 									a(href="#") 15
-							a(href="#").pagination-btn.middle
+							a(href="#").pagination-btn.pagination-btn--next.middle
 						.text-block
 							h2.item-title О компании
 							p

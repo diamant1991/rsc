@@ -78,8 +78,13 @@
 	border-radius: 5px;
 	width: 38px;
 	height: 38px;
-	line-height: 36px;
+	line-height: 32px;
 	text-align: center;
+
+	> img{
+		width: 18px;
+		vertical-align: middle;
+	}
 
 	&.active{
 		background: #fbc02d;
@@ -116,4 +121,21 @@
 }
 .sorting-title{
 	margin-right: 5px;
+}
+.icon-white{
+	display: none;
+}
+.view-btn{
+	&.active,
+	&:hover{
+		background: #fbc02d;
+    border-color: #fbc02d;
+    
+		.icon-white{
+			display: inline-block;
+		}
+		.icon-grey{
+			display: none;
+		}
+	}
 }

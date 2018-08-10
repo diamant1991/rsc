@@ -45,6 +45,19 @@
 }
 .pagination-btn--left{
 	margin-right: 10px;
+	background: #eceff1 url(../images/pag-left.png)no-repeat 50%;
+
+	&:hover{
+		background: #1e88e5 url(../images/pag-left-white.png)no-repeat 50%;
+	}
+}
+.pagination-btn--next{
+	margin-right: 10px;
+	background: #eceff1 url(../images/pag-right.png)no-repeat 50%;
+
+	&:hover{
+		background: #1e88e5 url(../images/pag-right-white.png)no-repeat 50%;
+	}
 }
 
 .pagination--product{
@@ -52,4 +65,8 @@
 	padding: 40px 0;
 	border-bottom: 1px dashed #b8b8b8;
 	margin-bottom: 30px;
+}
+
+.filter-arrow{
+	margin-left: 5px;
 }
